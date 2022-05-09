@@ -1,0 +1,296 @@
+// $color:rgba(25, 137, 25, 0.926);
+$font-size:25px;
+* {
+    margin: 0px;
+    padding: 0px;
+    .meladora {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        .head1 {
+            width: 100%;
+            height: 400px;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            flex-direction: column;
+            background-image: url("./images/markus-spiske-71uUjIt3cIs-unsplash.png");
+            background-blend-mode: darken;
+            .header1 {
+                width: 90%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-size: $font-size;
+                border-bottom: 1px solid white;
+                .nums {
+                    display: flex;
+                    // color: $color;
+                    i {
+                        color: #91B40D;
+                    }
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .icons {
+                    i {
+                        padding: 5px;
+                        color: #91B40D;
+                    }
+                }
+            }
+            .header2 {
+                width: 90%;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                font-size: $font-size - 5;
+                .texts {
+                    display: flex;
+                    justify-content: end;
+                    p,
+                    i {
+                        padding: 10px;
+                    }
+                }
+            }
+            .boxes {
+                display: flex;
+                align-items: flex-start;
+                .box {
+                    width: 350px;
+                    height: 250px;
+                    border: 1px solid;
+                    background-color: red;
+                    width: 350px;
+                    height: 250px;
+                    box-sizing: border-box;
+                    display: flex;
+                    img {
+                        position: relative;
+                        right: 65px;
+                    }
+                    box-shadow: 5px;
+                }
+            }
+        }
+        .boxes {
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            top: -125px;
+            .box {
+                width: 350px;
+                height: 250px;
+                box-sizing: border-box;
+                display: flex;
+                .h3 {
+                    font-weight: 200;
+                    color: white;
+                    font-size: 20px;
+                    width: 106px;
+                    height: 30px;
+                }
+                .h1 {
+                    color: white;
+                }
+                img {
+                    position: relative;
+                    right: 65px;
+                }
+                box-shadow: 5px;
+            }
+            .box1 {
+                background-color: #1A5221;
+            }
+            .box2 {
+                background-color: #91B40D;
+                img {
+                    width: 290.5px;
+                    height: 166.81px;
+                    right: 150px;
+                    top: 90px;
+                }
+            }
+            .box3 {
+                background-color: #FFBF00;
+                img {
+                    right: 70px;
+                }
+            }
+        }
+    }
+    .whoarewe {
+        .h6 {
+            overflow-wrap: break-word;
+            font-size: 13px;
+        }
+        .largeText {
+            // margin-left: 80px;
+            font-size: 15px;
+        }
+        footer {
+            .row {
+                display: flex;
+                justify-content: center;
+            }
+            .text {
+                display: flex;
+                justify-content: center;
+                font-weight: 700;
+                font-size: 15px;
+                margin-left: -20px;
+                span {
+                    margin-left: 26px;
+                }
+            }
+        }
+    }
+    .gardens {
+        .cards {
+            justify-content: space-evenly;
+            @for $i from 1 through 3 {
+                .card#{$i} {
+                    .h1 {
+                        box-sizing: border-box;
+                        font-size: 100px;
+                        color: #918F8F;
+                        font-weight: 400;
+                    }
+                    .h3 {
+                        width: 320px;
+                        font-weight: bold;
+                    }
+                    .cardText {
+                        width: 320px;
+                    }
+                    img {
+                        width: 320px;
+                        height: 400px;
+                    }
+                }
+            }
+            .card2 {
+                .h1 {
+                    color: #FFBF00;
+                }
+            }
+        }
+    }
+    .products {
+        margin-top: 150px;
+        .options {
+            justify-content: center;
+            p {
+                margin-left: 50px;
+            }
+        }
+        .container {
+            .row {
+                display: flex;
+                justify-content: space-between;
+                .col-1 {
+                    width: 200px;
+                    height: 200px;
+                    img {
+                        width: 150px;
+                        height: 150px;
+                    }
+                    .subtitle {
+                        box-shadow: 3px 3px 3px #b6b6b6;
+                        .h6 {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blogs {
+        .container {
+            .images {
+                justify-content: space-between;
+                box-sizing: border-box;
+                @for $i from 1 through 3 {
+                    .img#{$i} {
+                        width: 296px;
+                        height: 200px;
+                        .texts {
+                            .h5 {
+                                font-weight: bold;
+                            }
+                            .h6 {
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                    @if($i==1 or $i==3) {
+                        .img#{$i} {
+                            margin-top: 35px;
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            background-image: url("./images/ezgif.com-gif-maker\ \(1\).png");
+            width: 100%;
+            height: 500px;
+            .texts {
+                .meladora {
+                    position: relative;
+                    width: 33%;
+                    top: 270px;
+                    left: 150px;
+                }
+            }
+            .links {
+                display: flex;
+                width: 66%;
+                justify-content: space-evenly;
+                position: relative;
+                left: 400px;
+                top: 140px;
+                .menu {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .useful-links {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                .faq {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .copyright {
+                margin-top: 170px;
+                border-top: 1px solid white;
+                p {
+                    color: white;
+                    margin-top: 10px;
+                    margin-left: -12px;
+                }
+            }
+        }
+    }
+}
