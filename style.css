@@ -173,6 +173,10 @@
           box-shadow: 3px 3px 3px #b6b6b6; }
           * .products .container .row .col-1 .subtitle .h6 {
             font-weight: bold; }
+          * .products .container .row .col-1 .subtitle .color {
+            color: #91B40D; }
+            * .products .container .row .col-1 .subtitle .color i {
+              font-size: 10px; }
   * .blogs .container .images {
     justify-content: space-between;
     box-sizing: border-box; }
