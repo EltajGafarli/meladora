@@ -24,6 +24,9 @@ $font-size:25px;
                 align-items: center;
                 font-size: $font-size;
                 border-bottom: 1px solid white;
+                a:hover {
+                    transform: scale(1.2);
+                }
                 .nums {
                     display: flex;
                     // color: $color;
@@ -40,6 +43,9 @@ $font-size:25px;
                         padding: 5px;
                         color: #91B40D;
                     }
+                    i:hover {
+                        transform: scale(1.2);
+                    }
                 }
             }
             .header2 {
@@ -51,29 +57,20 @@ $font-size:25px;
                 .texts {
                     display: flex;
                     justify-content: end;
-                    p,
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+                    a,
                     i {
                         padding: 10px;
                     }
-                }
-            }
-            .boxes {
-                display: flex;
-                align-items: flex-start;
-                .box {
-                    width: 350px;
-                    height: 250px;
-                    border: 1px solid;
-                    background-color: red;
-                    width: 350px;
-                    height: 250px;
-                    box-sizing: border-box;
-                    display: flex;
-                    img {
-                        position: relative;
-                        right: 65px;
+                    a:hover {
+                        font-weight: bold;
                     }
-                    box-shadow: 5px;
+                    i:hover {
+                        font-weight: bold;
+                    }
                 }
             }
         }
@@ -87,6 +84,14 @@ $font-size:25px;
                 height: 250px;
                 box-sizing: border-box;
                 display: flex;
+                .text {
+                    a {
+                        text-decoration: none;
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
                 .h3 {
                     font-weight: 200;
                     color: white;
@@ -184,14 +189,22 @@ $font-size:25px;
         margin-top: 150px;
         .options {
             justify-content: center;
-            p {
+            a {
                 margin-left: 50px;
+                text-decoration: none;
+                color: black;
+            }
+            a:hover {
+                color: #91B40D;
             }
         }
         .container {
             .row {
                 display: flex;
                 justify-content: space-between;
+                .col-1:hover {
+                    border-top: 3px solid #918F8F;
+                }
                 .col-1 {
                     width: 200px;
                     height: 200px;
@@ -268,6 +281,9 @@ $font-size:25px;
                         color: white;
                         text-decoration: none;
                     }
+                    a:hover {
+                        color: #91B40D;
+                    }
                 }
                 .useful-links {
                     color: white;
@@ -277,6 +293,9 @@ $font-size:25px;
                         color: white;
                         text-decoration: none;
                     }
+                    a:hover {
+                        color: #91B40D;
+                    }
                 }
                 .faq {
                     color: white;
@@ -285,6 +304,9 @@ $font-size:25px;
                     a {
                         color: white;
                         text-decoration: none;
+                    }
+                    a:hover {
+                        color: #91B40D;
                     }
                 }
             }

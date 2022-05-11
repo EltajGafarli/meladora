@@ -22,6 +22,8 @@
         align-items: center;
         font-size: 25px;
         border-bottom: 1px solid white; }
+        * .meladora .head1 .header1 a:hover {
+          transform: scale(1.2); }
         * .meladora .head1 .header1 .nums {
           display: flex; }
           * .meladora .head1 .header1 .nums i {
@@ -32,6 +34,8 @@
         * .meladora .head1 .header1 .icons i {
           padding: 5px;
           color: #91B40D; }
+        * .meladora .head1 .header1 .icons i:hover {
+          transform: scale(1.2); }
       * .meladora .head1 .header2 {
         width: 90%;
         color: white;
@@ -41,25 +45,16 @@
         * .meladora .head1 .header2 .texts {
           display: flex;
           justify-content: end; }
-          * .meladora .head1 .header2 .texts p,
+          * .meladora .head1 .header2 .texts a {
+            text-decoration: none;
+            color: white; }
+          * .meladora .head1 .header2 .texts a,
           * .meladora .head1 .header2 .texts i {
             padding: 10px; }
-      * .meladora .head1 .boxes {
-        display: flex;
-        align-items: flex-start; }
-        * .meladora .head1 .boxes .box {
-          width: 350px;
-          height: 250px;
-          border: 1px solid;
-          background-color: red;
-          width: 350px;
-          height: 250px;
-          box-sizing: border-box;
-          display: flex;
-          box-shadow: 5px; }
-          * .meladora .head1 .boxes .box img {
-            position: relative;
-            right: 65px; }
+          * .meladora .head1 .header2 .texts a:hover {
+            font-weight: bold; }
+          * .meladora .head1 .header2 .texts i:hover {
+            font-weight: bold; }
     * .meladora .boxes {
       position: relative;
       display: flex;
@@ -71,6 +66,10 @@
         box-sizing: border-box;
         display: flex;
         box-shadow: 5px; }
+        * .meladora .boxes .box .text a {
+          text-decoration: none; }
+        * .meladora .boxes .box .text a:hover {
+          text-decoration: underline; }
         * .meladora .boxes .box .h3 {
           font-weight: 200;
           color: white;
@@ -158,11 +157,17 @@
     margin-top: 150px; }
     * .products .options {
       justify-content: center; }
-      * .products .options p {
-        margin-left: 50px; }
+      * .products .options a {
+        margin-left: 50px;
+        text-decoration: none;
+        color: black; }
+      * .products .options a:hover {
+        color: #91B40D; }
     * .products .container .row {
       display: flex;
       justify-content: space-between; }
+      * .products .container .row .col-1:hover {
+        border-top: 3px solid #918F8F; }
       * .products .container .row .col-1 {
         width: 200px;
         height: 200px; }
@@ -228,6 +233,8 @@
         * .blogs footer .links .menu a {
           color: white;
           text-decoration: none; }
+        * .blogs footer .links .menu a:hover {
+          color: #91B40D; }
       * .blogs footer .links .useful-links {
         color: white;
         display: flex;
@@ -235,6 +242,8 @@
         * .blogs footer .links .useful-links a {
           color: white;
           text-decoration: none; }
+        * .blogs footer .links .useful-links a:hover {
+          color: #91B40D; }
       * .blogs footer .links .faq {
         color: white;
         display: flex;
@@ -242,6 +251,8 @@
         * .blogs footer .links .faq a {
           color: white;
           text-decoration: none; }
+        * .blogs footer .links .faq a:hover {
+          color: #91B40D; }
     * .blogs footer .copyright {
       margin-top: 170px;
       border-top: 1px solid white; }
