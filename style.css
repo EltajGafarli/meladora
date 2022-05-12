@@ -28,6 +28,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background-image: url("./images/markus-spiske-71uUjIt3cIs-unsplash.png");
+  border-radius: 5px;
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
 }
@@ -164,6 +165,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 15px;
   -webkit-box-shadow: 5px;
           box-shadow: 5px;
 }
@@ -214,6 +216,10 @@
 
 * .meladora .boxes .box3 img {
   right: 70px;
+}
+
+* .whoarewe img {
+  border-radius: 15px;
 }
 
 * .whoarewe .h6 {
@@ -276,6 +282,7 @@
 * .gardens .cards .card1 img {
   width: 320px;
   height: 400px;
+  border-radius: 15px;
 }
 
 * .gardens .cards .card2 .h1 {
@@ -298,6 +305,7 @@
 * .gardens .cards .card2 img {
   width: 320px;
   height: 400px;
+  border-radius: 15px;
 }
 
 * .gardens .cards .card3 .h1 {
@@ -320,6 +328,7 @@
 * .gardens .cards .card3 img {
   width: 320px;
   height: 400px;
+  border-radius: 15px;
 }
 
 * .gardens .cards .card2 .h1 {
@@ -356,12 +365,14 @@
 }
 
 * .products .container .row .col-1:hover {
-  border-top: 3px solid #918F8F;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 * .products .container .row .col-1 {
   width: 200px;
   height: 200px;
+  border-radius: 15px;
 }
 
 * .products .container .row .col-1 img {
@@ -370,8 +381,9 @@
 }
 
 * .products .container .row .col-1 .subtitle {
-  -webkit-box-shadow: 3px 3px 3px #b6b6b6;
-          box-shadow: 3px 3px 3px #b6b6b6;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+          box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  border-radius: 15px;
 }
 
 * .products .container .row .col-1 .subtitle .h6 {
@@ -399,6 +411,10 @@
   height: 200px;
 }
 
+* .blogs .container .images .img1 img {
+  border-radius: 15px;
+}
+
 * .blogs .container .images .img1 .texts .h5 {
   font-weight: bold;
 }
@@ -416,6 +432,10 @@
   height: 200px;
 }
 
+* .blogs .container .images .img2 img {
+  border-radius: 15px;
+}
+
 * .blogs .container .images .img2 .texts .h5 {
   font-weight: bold;
 }
@@ -427,6 +447,10 @@
 * .blogs .container .images .img3 {
   width: 296px;
   height: 200px;
+}
+
+* .blogs .container .images .img3 img {
+  border-radius: 15px;
 }
 
 * .blogs .container .images .img3 .texts .h5 {
