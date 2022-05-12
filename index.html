@@ -11,11 +11,19 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body class="container-fluid">
-    <div class="meladora">
+    <div class="meladora container-fluid">
+        <div class="searchArea d-flex justify-content-center align-items-center position-fixed d-none">
+            <i class="fa fa-times position-absolute" id="cancel" aria-hidden="true"></i>
+            <div class="w-75 h-25 d-flex justify-content-center form">
+                <input type="text" class="w-75" placeholder="Bir şeylər axtar">
+                <span class="text-black bg-white">Axtar</span>
+            </div>
+        </div>
         <div class="head1 container-fluid">
             <div class="header1">
                 <div class="nums">
@@ -38,7 +46,7 @@
                     <a href="">Xidmətlərimiz</a>
                     <a href="">Sosial məsuliyyət</a>
                     <a href="">Əlaqə</a>
-                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="fa fa-search" aria-hidden="true" id="searchIcon"></i>
                 </div>
             </div>
         </div>
@@ -271,7 +279,8 @@
             </div>
         </footer>
     </div>
-    <!-- <script src="./app.js"></script> -->
+
+    <script src="./app.js"></script>
 </body>
 
 </html>

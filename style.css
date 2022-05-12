@@ -11,6 +11,68 @@
   width: 100%;
 }
 
+* .meladora .searchArea {
+  width: 1325px;
+  height: 670px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+* .meladora .searchArea i {
+  right: 40px;
+  top: 40px;
+  font-size: 35px;
+  color: white;
+}
+
+* .meladora .searchArea i:hover {
+  color: #df4759;
+  cursor: pointer;
+}
+
+* .meladora .searchArea .form span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  width: 165px;
+  height: 65px;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 100;
+}
+
+* .meladora .searchArea .form input {
+  border: 3px solid black;
+  font-size: 30px;
+  height: 65px;
+  outline-style: none;
+  border: 3px solid white;
+  background-color: inherit;
+  color: white;
+}
+
+* .meladora .searchArea .form input::-webkit-input-placeholder {
+  color: white;
+}
+
+* .meladora .searchArea .form input:-ms-input-placeholder {
+  color: white;
+}
+
+* .meladora .searchArea .form input::-ms-input-placeholder {
+  color: white;
+}
+
+* .meladora .searchArea .form input::placeholder {
+  color: white;
+}
+
 * .meladora .head1 {
   width: 100%;
   height: 400px;
@@ -29,8 +91,8 @@
           flex-direction: column;
   background-image: url("./images/markus-spiske-71uUjIt3cIs-unsplash.png");
   border-radius: 5px;
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
 * .meladora .head1 .header1 {
