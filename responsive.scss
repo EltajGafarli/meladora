@@ -1,0 +1,38 @@
+@media (max-width: 450px) {
+    .meladora {
+        .head1 {
+            .header1 {
+                font-size: 15px;
+            }
+            .header2 {
+                .menu {
+                    display: none;
+                }
+                .responsive-icons {
+                    .fa-bars {
+                        display: inline;
+                    }
+                }
+            }
+        }
+        .boxes {
+            .buttons {
+                border: 1px solid black;
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+    .whoarewe {
+        display: none;
+    }
+    .gardens {
+        display: none;
+    }
+    .products {
+        display: none;
+    }
+    .blogs {
+        display: none;
+    }
+}
