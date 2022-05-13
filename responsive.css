@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 415px) {
   .meladora .head1 .header1 {
     font-size: 15px; }
   .meladora .head1 .header2 .menu {
@@ -6,20 +6,88 @@
   .meladora .head1 .header2 .responsive-icons .fa-bars {
     display: inline; }
   .meladora .boxes .buttons {
-    border: 1px solid black;
-    width: 10px;
-    height: 10px; }
+    display: flex;
+    width: 100px;
+    height: 15px;
+    left: auto;
+    top: 265px;
+    justify-content: space-evenly; }
+    .meladora .boxes .buttons span {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-color: #6e6d6d; }
 
   .whoarewe {
-    display: none; }
+    display: flex;
+    flex-direction: column;
+    border-radius: 0; }
 
   .gardens {
-    display: none; }
+    display: flex;
+    flex-direction: column; }
+    .gardens .cards {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .gardens .cards .card2 {
+        margin: 10px 0 10px 0;
+        display: flex;
+        flex-direction: column-reverse; }
 
   .products {
-    display: none; }
+    width: 410px; }
+    .products .options {
+      display: flex;
+      margin-left: -40px; }
+      .products .options a {
+        font-size: 12px;
+        font-weight: bold;
+        display: inline; }
+    .products .container .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .products .container .row .col-1 {
+        margin-top: 20px;
+        width: 85%; }
 
   .blogs {
-    display: none; } }
+    display: flex;
+    flex-direction: column; }
+    .blogs .container .images {
+      flex-direction: column;
+      align-items: center; }
+      .blogs .container .images .img2 {
+        margin-top: 150px; }
+      .blogs .container .images .img3 {
+        margin-top: 160px; }
+    .blogs footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      .blogs footer .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .blogs footer .links .menu {
+          text-align: center;
+          display: flex;
+          flex-direction: column; }
+          .blogs footer .links .menu a {
+            color: black; }
+        .blogs footer .links .useful-links {
+          text-align: center;
+          display: flex;
+          flex-direction: column; }
+          .blogs footer .links .useful-links a {
+            color: black; }
+        .blogs footer .links .faq {
+          text-align: center;
+          display: flex;
+          flex-direction: column; }
+          .blogs footer .links .faq a {
+            color: black; } }
 
 /*# sourceMappingURL=responsive.css.map */

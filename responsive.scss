@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 415px) {
     .meladora {
         .head1 {
             .header1 {
@@ -17,22 +17,118 @@
         }
         .boxes {
             .buttons {
-                border: 1px solid black;
-                width: 10px;
-                height: 10px;
+                display: flex;
+                width: 100px;
+                height: 15px;
+                left: auto;
+                top: 265px;
+                justify-content: space-evenly;
+                span {
+                    width: 15px;
+                    height: 15px;
+                    // border: 1px solid black;
+                    border-radius: 50%;
+                    background-color: #6e6d6d;
+                }
             }
         }
     }
     .whoarewe {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0;
     }
     .gardens {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        .cards {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .card2 {
+                margin: 10px 0 10px 0;
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            // @for $i from 1 through 3 {
+            //     .card#{$i} {
+            //         box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+            //     }
+            // }
+        }
     }
     .products {
-        display: none;
+        width: 410px;
+        .options {
+            display: flex;
+            margin-left: -40px;
+            a {
+                font-size: 12px;
+                font-weight: bold;
+                display: inline;
+            }
+        }
+        .container {
+            .row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .col-1 {
+                    margin-top: 20px;
+                    width: 85%;
+                }
+            }
+        }
     }
     .blogs {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        .container {
+            .images {
+                flex-direction: column;
+                align-items: center;
+                .img2 {
+                    margin-top: 150px;
+                }
+                .img3 {
+                    margin-top: 160px;
+                }
+            }
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .links {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .menu {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: black;
+                    }
+                }
+                .useful-links {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: black;
+                    }
+                }
+                .faq {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    a {
+                        color: black;
+                    }
+                }
+            }
+        }
     }
 }
