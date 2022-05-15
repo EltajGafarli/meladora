@@ -45,6 +45,9 @@
       justify-content: space-evenly; }
       .meladora .menu-for-mobile .social-media-icon-for-menu a {
         color: #b6e608; }
+  .meladora .searchArea .form {
+    left: 50px;
+    border-radius: 5px; }
   .meladora .head1 .header1 {
     font-size: 15px; }
   .meladora .head1 .header2 .menu {
