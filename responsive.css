@@ -51,6 +51,9 @@
     display: none; }
   .meladora .head1 .header2 .responsive-icons .fa-bars {
     display: inline; }
+  .meladora .boxes .box2,
+  .meladora .boxes .box3 {
+    display: none; }
   .meladora .boxes .buttons {
     display: flex;
     width: 100px;
@@ -63,6 +66,8 @@
       height: 15px;
       border-radius: 50%;
       background-color: #6e6d6d; }
+    .meladora .boxes .buttons .button1 {
+      background-color: orange; }
 
   .whoarewe {
     display: flex;
@@ -98,6 +103,8 @@
       .products .container .row .col-1 {
         margin-top: 20px;
         width: 85%; }
+        .products .container .row .col-1 img {
+          margin-left: 25%; }
 
   .blogs {
     display: flex;
@@ -109,31 +116,33 @@
         margin-top: 150px; }
       .blogs .container .images .img3 {
         margin-top: 160px; }
-    .blogs footer {
-      display: flex;
-      flex-direction: column;
-      justify-content: center; }
-      .blogs footer .links {
+    .blogs footer .texts {
+      margin-top: -60px; }
+    .blogs footer .copyright {
+      margin-top: 335px; }
+    .blogs footer .links {
+      font-size: 11px;
+      left: 70px;
+      top: 300px; }
+      .blogs footer .links .menu {
+        text-align: center;
         display: flex;
-        flex-direction: column;
-        align-items: center; }
-        .blogs footer .links .menu {
-          text-align: center;
-          display: flex;
-          flex-direction: column; }
-          .blogs footer .links .menu a {
-            color: black; }
-        .blogs footer .links .useful-links {
-          text-align: center;
-          display: flex;
-          flex-direction: column; }
-          .blogs footer .links .useful-links a {
-            color: black; }
-        .blogs footer .links .faq {
-          text-align: center;
-          display: flex;
-          flex-direction: column; }
-          .blogs footer .links .faq a {
-            color: black; } }
+        flex-direction: column; }
+        .blogs footer .links .menu a {
+          color: white; }
+      .blogs footer .links .copyright {
+        margin-top: 300px; }
+      .blogs footer .links .useful-links {
+        text-align: center;
+        display: flex;
+        flex-direction: column; }
+        .blogs footer .links .useful-links a {
+          color: white; }
+      .blogs footer .links .faq {
+        text-align: center;
+        display: flex;
+        flex-direction: column; }
+        .blogs footer .links .faq a {
+          color: white; } }
 
 /*# sourceMappingURL=responsive.css.map */
