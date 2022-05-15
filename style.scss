@@ -17,6 +17,8 @@ $font-size:25px;
         padding: 0;
         width: 100%;
         .menu-for-mobile {
+            display: none;
+            width: 25%;
             position: fixed;
             box-sizing: border-box;
             left: 0px;
