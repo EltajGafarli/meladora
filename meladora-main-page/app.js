@@ -19,7 +19,7 @@ $("#cancel-for-menu").click(function(e) {
 const boxes = document.querySelectorAll('.box');
 const buttons = document.querySelectorAll(".meladora .boxes .buttons .button");
 
-console.log("my color", buttons[0].style.backgroundColor);
+
 
 let currentSlider = 0;
 
