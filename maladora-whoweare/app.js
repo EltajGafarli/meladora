@@ -14,3 +14,6 @@ $("#menu-button").click(function(e) {
 $("#cancel-for-menu").click(function(e) {
     $(".menu-for-mobile").hide(1000);
 })
+
+
+console.log(document.getElementsByClassName("gardens"));
