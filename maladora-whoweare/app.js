@@ -1,4 +1,4 @@
-$("#searchIcon").click(function(e) {
+$(".search-icon").click(function(e) {
     $(".searchArea").slideDown("fast");
 
 });
@@ -14,6 +14,3 @@ $("#menu-button").click(function(e) {
 $("#cancel-for-menu").click(function(e) {
     $(".menu-for-mobile").hide(1000);
 })
-
-
-console.log(document.getElementsByClassName("gardens"));
