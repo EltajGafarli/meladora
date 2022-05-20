@@ -60,7 +60,8 @@
   .main .services .row {
     display: flex;
     flex-direction: column;
-    width: 92%; }
+    width: 92%;
+    margin-left: 35px; }
     .main .services .row .col-4 {
       margin-top: 40px;
       width: 92%;
