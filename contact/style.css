@@ -204,7 +204,9 @@
   * .main .contact .login-area {
     position: relative;
     top: 200px;
-    border: 1px solid rebeccapurple; }
+    border: 1px solid rebeccapurple;
+    display: flex;
+    justify-content: space-between; }
     * .main .contact .login-area .login form {
       display: flex;
       flex-direction: column;
@@ -217,19 +219,19 @@
         margin-top: 25px;
         text-indent: 10px;
         padding-bottom: 8px;
-        width: 570px;
+        width: 500px;
         font-size: 20px; }
       * .main .contact .login-area .login form textarea {
         margin-top: 25px;
         text-indent: 10px;
         height: 140px;
-        width: 570px;
+        width: 500px;
         font-size: 20px;
         outline-style: none; }
       * .main .contact .login-area .login form button {
         margin-top: 25px;
         margin-bottom: 25px;
-        width: 200px;
+        width: 180px;
         height: 50px;
         border: none;
         background-color: #91B40D;
@@ -237,6 +239,51 @@
         box-sizing: border-box;
         font-size: 20px;
         border-radius: 5px; }
+    * .main .contact .login-area .contact-area {
+      position: relative;
+      background-color: #91B40D;
+      width: 50%;
+      right: -12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+      * .main .contact .login-area .contact-area p {
+        text-align: center;
+        margin-bottom: 10px;
+        color: white;
+        font-family: "Cormorant Garamond", serif;
+        font-size: 20px;
+        font-weight: 600; }
+        * .main .contact .login-area .contact-area p i {
+          font-size: 35px;
+          color: white; }
+        * .main .contact .login-area .contact-area p a {
+          color: white;
+          font-family: "Cormorant Garamond", serif;
+          text-decoration: none; }
+        * .main .contact .login-area .contact-area p span {
+          padding: 5px; }
+      * .main .contact .login-area .contact-area .icons i {
+        font-size: 45px; }
+      * .main .contact .login-area .contact-area .icons i:hover {
+        transform: scale(0.8);
+        transition: all 1s; }
+      * .main .contact .login-area .contact-area .phone:hover i {
+        animation-name: ring;
+        animation-duration: 150ms;
+        animation-iteration-count: 5;
+        animation-timing-function: ease-in; }
+@keyframes ring {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(25deg); }
+  50% {
+    transform: rotate(0eg); }
+  75% {
+    transform: rotate(-25deg); }
+  100% {
+    transform: rotate(0deg); } }
 * .main .content-footer {
   margin-top: 220px; }
   * .main .content-footer .contents {

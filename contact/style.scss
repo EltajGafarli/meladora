@@ -263,6 +263,8 @@ $font-size:25px;
                 position: relative;
                 top: 200px;
                 border: 1px solid rebeccapurple;
+                display: flex;
+                justify-content: space-between;
                 .login {
                     form {
                         display: flex;
@@ -276,21 +278,21 @@ $font-size:25px;
                             margin-top: 25px;
                             text-indent: 10px;
                             padding-bottom: 8px;
-                            width: 570px;
+                            width: 500px;
                             font-size: 20px;
                         }
                         textarea {
                             margin-top: 25px;
                             text-indent: 10px;
                             height: 140px;
-                            width: 570px;
+                            width: 500px;
                             font-size: 20px;
                             outline-style: none;
                         }
                         button {
                             margin-top: 25px;
                             margin-bottom: 25px;
-                            width: 200px;
+                            width: 180px;
                             height: 50px;
                             border: none;
                             background-color: #91B40D;
@@ -298,6 +300,68 @@ $font-size:25px;
                             box-sizing: border-box;
                             font-size: 20px;
                             border-radius: 5px;
+                        }
+                    }
+                }
+                .contact-area {
+                    position: relative;
+                    background-color: #91B40D;
+                    // background-color: rebeccapurple;
+                    width: 50%;
+                    right: -12px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    p {
+                        text-align: center;
+                        margin-bottom: 10px;
+                        i {
+                            font-size: 35px;
+                            color: white;
+                        }
+                        a {
+                            color: white;
+                            font-family: $font-family;
+                            text-decoration: none;
+                        }
+                        color: white;
+                        font-family: $font-family;
+                        font-size: 20px;
+                        font-weight: 600;
+                        span {
+                            padding: 5px;
+                        }
+                    }
+                    .icons {
+                        i {
+                            font-size: 45px;
+                        }
+                        i:hover {
+                            transform: scale(.8);
+                            transition: all 1s;
+                        }
+                    }
+                    .phone:hover i {
+                        animation-name: ring;
+                        animation-duration: 150ms;
+                        animation-iteration-count: 5;
+                        animation-timing-function: ease-in;
+                    }
+                    @keyframes ring {
+                        0% {
+                            transform: rotate(0deg);
+                        }
+                        25% {
+                            transform: rotate(25deg);
+                        }
+                        50% {
+                            transform: rotate(0eg);
+                        }
+                        75% {
+                            transform: rotate(-25deg);
+                        }
+                        100% {
+                            transform: rotate(0deg);
                         }
                     }
                 }

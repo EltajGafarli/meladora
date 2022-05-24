@@ -1,0 +1,145 @@
+@media (max-width: 415px) {
+  .main .header .menu-for-mobile {
+    z-index: 200;
+    display: none;
+    position: fixed;
+    top: 0px;
+    width: 50%; }
+    .main .header .menu-for-mobile .icons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 5px;
+      font-size: 25px;
+      border-bottom: 1px solid; }
+      .main .header .menu-for-mobile .icons img {
+        margin: 15px;
+        transform: scale(0.9); }
+      .main .header .menu-for-mobile .icons i {
+        margin-top: 15px; }
+    .main .header .menu-for-mobile .options {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 600;
+      font-size: 15px; }
+      .main .header .menu-for-mobile .options ul {
+        margin-left: 20px; }
+        .main .header .menu-for-mobile .options ul li {
+          list-style-type: none;
+          margin-top: 25px; }
+    .main .header .menu-for-mobile .social-media-icon-for-menu {
+      display: flex;
+      font-size: 15px;
+      justify-content: space-evenly; }
+      .main .header .menu-for-mobile .social-media-icon-for-menu a {
+        color: #b6e608; }
+  .main .header .searchArea {
+    z-index: 500; }
+    .main .header .searchArea .form {
+      left: 50px;
+      border-radius: 5px; }
+  .main .header .header-links .links {
+    display: none; }
+  .main .header .header-links .responsive-icons {
+    display: inline; }
+    .main .header .header-links .responsive-icons a {
+      color: black;
+      text-decoration: none;
+      margin-left: 10px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 25px; }
+  .main .body-image .img-fluid {
+    height: 220px; }
+  .main .body-image .tree {
+    width: 150px;
+    height: 150px;
+    top: 130px;
+    right: 30px; }
+  .main .contact {
+    width: 100%;
+    background-size: 150% 35%; }
+    .main .contact .login-area {
+      position: relative;
+      top: 150px;
+      display: flex;
+      flex-direction: column; }
+      .main .contact .login-area .login form {
+        display: flex;
+        flex-direction: column; }
+        .main .contact .login-area .login form .h1 {
+          width: 120%;
+          margin-left: 80px; }
+        .main .contact .login-area .login form input {
+          border: none;
+          outline-style: none;
+          border-bottom: 1px solid;
+          border-color: #918F8F;
+          margin-top: 25px;
+          text-indent: 10px;
+          padding-bottom: 8px;
+          width: 250px;
+          font-size: 20px; }
+        .main .contact .login-area .login form textarea {
+          margin-top: 25px;
+          text-indent: 10px;
+          height: 140px;
+          width: 340px;
+          font-size: 20px;
+          outline-style: none; }
+        .main .contact .login-area .login form button {
+          margin-top: 25px;
+          margin-bottom: 25px;
+          width: 180px;
+          height: 50px;
+          border: none;
+          background-color: #91B40D;
+          color: white;
+          box-sizing: border-box;
+          font-size: 20px;
+          border-radius: 5px; }
+      .main .contact .login-area .contact-area {
+        position: relative;
+        background-color: #91B40D;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: -10px;
+        border: none; }
+        .main .contact .login-area .contact-area p {
+          text-align: center;
+          margin-bottom: 10px;
+          color: white;
+          font-size: 20px;
+          font-weight: 600; }
+          .main .contact .login-area .contact-area p i {
+            font-size: 35px;
+            color: white; }
+          .main .contact .login-area .contact-area p a {
+            color: white;
+            text-decoration: none; }
+          .main .contact .login-area .contact-area p span {
+            padding: 5px; }
+        .main .contact .login-area .contact-area .icons i {
+          font-size: 45px; }
+  .main .content-footer .contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .main .content-footer .contents .linksAndIcon {
+      display: flex;
+      flex-direction: column;
+      font-size: 15px; }
+      .main .content-footer .contents .linksAndIcon .icon {
+        margin-left: 65px; }
+      .main .content-footer .contents .linksAndIcon .links {
+        margin-top: 30px;
+        margin-left: -70px; }
+        .main .content-footer .contents .linksAndIcon .links ul p {
+          font-size: 15px;
+          margin-bottom: 0px; }
+        .main .content-footer .contents .linksAndIcon .links ul li {
+          margin-top: -2px;
+          padding: 0px; }
+          .main .content-footer .contents .linksAndIcon .links ul li a {
+            font-size: 10px; } }
+
+/*# sourceMappingURL=responsive.css.map */
