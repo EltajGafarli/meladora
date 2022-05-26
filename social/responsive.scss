@@ -1,0 +1,126 @@
+@media(max-width:700px) {
+    .main {
+        width: 100%;
+        overflow: hidden;
+        // overflow: hidden;
+        .header {
+            .menu-for-mobile {
+                z-index: 200;
+                display: none;
+                position: fixed;
+                top: 0px;
+                width: 50%;
+                .icons {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 5px;
+                    font-size: 25px;
+                    img {
+                        margin: 15px;
+                        transform: scale(.9);
+                    }
+                    i {
+                        margin-top: 15px;
+                    }
+                    border-bottom: 1px solid;
+                    // align-items: center;
+                }
+                .options {
+                    font-family: 'Cormorant Garamond', serif;
+                    font-weight: 600;
+                    font-size: 15px;
+                    ul {
+                        margin-left: 20px;
+                        li {
+                            list-style-type: none;
+                            margin-top: 25px;
+                        }
+                    }
+                }
+                .social-media-icon-for-menu {
+                    display: flex;
+                    font-size: 15px;
+                    a {
+                        color: #b6e608;
+                    }
+                    justify-content: space-evenly;
+                }
+            }
+            .searchArea {
+                z-index: 500;
+                .form {
+                    left: 50px;
+                    border-radius: 5px;
+                }
+            }
+            .header-links {
+                .links {
+                    display: none;
+                }
+                .responsive-icons {
+                    display: inline;
+                    a {
+                        color: black;
+                        text-decoration: none;
+                        margin-left: 10px;
+                        font-family: 'Cormorant Garamond', serif;
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+        .body-image {
+            .img-fluid {
+                height: 220px;
+            }
+            .tree {
+                width: 150px;
+                height: 150px;
+                top: 130px;
+                right: 30px;
+            }
+        }
+        .social {
+            background-size: 130% 75%;
+            height: 400px;
+            overflow: hidden;
+            .content {
+                margin-top: -100px;
+            }
+        }
+        .content-footer {
+            margin-top: 50px;
+            .contents {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .linksAndIcon {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 15px;
+                    .icon {
+                        margin-left: 65px;
+                    }
+                    .links {
+                        margin-top: 30px;
+                        margin-left: -70px;
+                        ul {
+                            p {
+                                font-size: 15px;
+                                margin-bottom: 0px;
+                            }
+                            li {
+                                margin-top: -2px;
+                                padding: 0px;
+                                a {
+                                    font-size: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
