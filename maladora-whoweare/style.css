@@ -147,15 +147,15 @@
     * .main .header .header-links .links .large-screen-icons a {
       color: black;
       text-decoration: none;
-      margin-left: 5px;
+      margin-left: 10px;
       font-family: 'Cormorant Garamond', serif;
-      font-size: 20px; }
+      font-size: 25px; }
   * .main .header .header-links .links .link a {
     color: black;
     text-decoration: none;
-    margin-left: 6px;
+    margin-left: 10px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 23px; }
+    font-size: 25px; }
   * .main .header .header-links .links .link a {
     position: relative; }
   * .main .header .header-links .links .link a::before {

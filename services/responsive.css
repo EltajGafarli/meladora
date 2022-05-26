@@ -28,6 +28,9 @@
           .main .header .menu-for-mobile .options ul li {
             list-style-type: none;
             margin-top: 25px; }
+            .main .header .menu-for-mobile .options ul li a {
+              text-decoration: none;
+              color: black; }
       .main .header .menu-for-mobile .social-media-icon-for-menu {
         display: flex;
         font-size: 15px;
