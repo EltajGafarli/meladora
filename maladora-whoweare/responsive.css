@@ -91,6 +91,8 @@
           margin-top: -2px;
           padding: 0px; }
           .main .content-footer .contents .linksAndIcon .links ul li a {
-            font-size: 10px; } }
+            font-size: 10px; }
+  .main .back-upper {
+    right: 30px; } }
 
 /*# sourceMappingURL=responsive.css.map */

@@ -178,6 +178,8 @@
           transform: scaleX(1); }
         * .meladora .head1 .header2 .texts i:hover {
           font-weight: bold; }
+        * .meladora .head1 .header2 .texts a:active {
+          background-color: #1A5221; }
   * .meladora .boxes {
     position: relative;
     display: flex;
@@ -439,5 +441,20 @@
         color: white;
         margin-top: 10px;
         margin-left: -12px; }
+* .back-upper {
+  background-color: #FFBF00;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px; }
+  * .back-upper i {
+    font-size: 35px;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

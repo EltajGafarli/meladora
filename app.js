@@ -46,3 +46,19 @@ function standartBackGroundColor(buttons) {
         buttons[i].style.backgroundColor = "#6e6d6d";
     }
 }
+
+
+window.onscroll = function() { scrollFunction() };
+$(function() {
+    $('.back-upper').click(function() {
+        $("html, body").animate({ scrollTop: 0 }, 0);
+    })
+});
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        $('.back-upper').css("display", "flex")
+    } else {
+        $('.back-upper').css("display", "none");
+    }
+}

@@ -312,5 +312,20 @@
         font-family: "Cormorant Garamond", serif;
         font-size: large;
         font-weight: bold; }
+* .main .back-upper {
+  background-color: #FFBF00;
+  width: 45px;
+  height: 45px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px; }
+  * .main .back-upper i {
+    font-size: 35px;
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */
