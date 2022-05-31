@@ -178,8 +178,6 @@
           transform: scaleX(1); }
         * .meladora .head1 .header2 .texts i:hover {
           font-weight: bold; }
-        * .meladora .head1 .header2 .texts a:active {
-          background-color: #1A5221; }
   * .meladora .boxes {
     position: relative;
     display: flex;
